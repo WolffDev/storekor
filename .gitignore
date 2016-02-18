@@ -1,2 +1,7 @@
-research
+node_modules
+.npm-debug.log
+tmp
+.sass-cache
+*.css.map
 .DS_Store
+research
