@@ -67,7 +67,12 @@ module.exports = function(grunt) {
      watch: {
        css: {
          files: '**/*.scss',
-         tasks: ['sass', 'autoprefixer', 'jade']
+         tasks: ['sass', 'autoprefixer'],
+         livereload: true
+       },
+       jade: {
+         files: '*.jade',
+         tasks: ['jade']
        }
      }
 
@@ -77,7 +82,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-contrib-jade');
-  grunt.registerTask('default',['jade','watch']);
+  grunt.registerTask('default',['watch']);
 
 
 }

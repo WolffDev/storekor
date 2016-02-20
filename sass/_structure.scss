@@ -1,8 +1,19 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
 }
 
 html {
-  background: $color__background; 
+  background: $color__background;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 2000px;
+  color: $color__main-text;
 }

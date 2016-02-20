@@ -1,0 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+
+body {
+  @include font-size(1);
+  line-height: 1.5;
+  font-family: 'Ubuntu', sans-serif;
+}
