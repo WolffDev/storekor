@@ -1,5 +1,5 @@
 header {
-  background-image: url(img/bg-head2.jpg);
+  background-image: url(/img/bg-head2.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,11 +15,14 @@ header {
   left: 20px;
   width: 100px;
   height: 100px;
-  background: url(img/logo.png);
+  background: url(/img/logo.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
   z-index: 100;
+}
+.nav-mobile {
+  display: none;
 }
 
 nav {
@@ -43,8 +46,10 @@ nav {
       padding: 10px 5px;
       height: 100%;
       width: 100%;
+      transition: all .3s linear;
       &:hover {
         background: $color__link-hover;
+        transition: all .3s linear;
       }
     }
   }

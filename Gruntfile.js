@@ -27,6 +27,15 @@ module.exports = function(grunt) {
          files: {
            'compiled/style.css': 'sass/style.scss'
          }
+       },
+       mobile: {
+         options: {
+           style: 'compressed',
+           sourcemap: 'none',
+         },
+         files: {
+           'compiled/mobile.css': 'sass/mobile.scss'
+         }
        }
      },
 

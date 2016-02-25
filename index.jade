@@ -3,10 +3,15 @@ html(lang="da")
   head
     meta(charset="utf-8")
     title SDU Storekor Odense
-    link(rel="stylesheet", href="style.css")
+    link(rel="stylesheet", href="css/style.css")
+    link(rel="stylesheet", href="mobile.css")
+    link(rel="shortcut icon" href="img/favicon.ico" type="image/x-icon")
   body
     header
-      .head-icon
+      a(href="#")
+        .head-icon
+      .nav-mobile
+        h1 TESTER!
       nav
         ul
           li 
@@ -31,8 +36,30 @@ html(lang="da")
       main
         section.koncerter
           article.koncert
-          article.koncert
-          article.koncert
+            div.konc-info
+              h2 Koncert titel
+              p Lokation
+              p Entré Pris
+              a(href="#") Læs mere
+            div.konc-img
+              a(href="#")
+                img(src="img/event1.jpg")
+            div.konc-info
+              h2 Koncert titel
+              p Lokation
+              p Entré Pris
+              a(href="#") Læs mere
+            div.konc-img
+              a(href="#")
+                img(src="img/event1.jpg")
+            div.konc-info
+              h2 Koncert titel
+              p Lokation
+              p Entré Pris
+              a(href="#") Læs mere
+            div.konc-img
+              a(href="#")
+                img(src="img/event1.jpg")
         section.intro
           article.intro-tekst
           article.intro-tekst
@@ -43,7 +70,4 @@ html(lang="da")
           article.om-os-tekst
           article.om-os-img
     footer
-    script(type="javascript", src="js/script.js")      
-      
-            
-        
+    script(type="javascript", src="js/script-min.js")

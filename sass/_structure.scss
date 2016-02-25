@@ -1,10 +1,19 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   outline: none;
   text-decoration: none;
   list-style: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*:not(img),
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 html {
