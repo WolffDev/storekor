@@ -3,6 +3,7 @@ html(lang="da")
   head
     meta(charset="utf-8")
     title SDU Storekor Odense
+    link(rel="stylesheet", href="css/skeleton.css")
     link(rel="stylesheet", href="css/style.css")
     link(rel="stylesheet", href="mobile.css")
     link(rel="shortcut icon" href="img/favicon.ico" type="image/x-icon")
@@ -33,7 +34,7 @@ html(lang="da")
           li 
             a(href="#") Kontakt
     .wrapper
-      main
+      .landing
         section.koncerter
           article.koncert
             div.konc-info
@@ -44,6 +45,8 @@ html(lang="da")
             div.konc-img
               a(href="#")
                 img(src="img/event1.jpg")
+                  
+          article.koncert
             div.konc-info
               h2 Koncert titel
               p Lokation
@@ -51,7 +54,9 @@ html(lang="da")
               a(href="#") Læs mere
             div.konc-img
               a(href="#")
-                img(src="img/event1.jpg")
+                img(src="img/event2.jpg")
+                  
+          article.koncert
             div.konc-info
               h2 Koncert titel
               p Lokation
@@ -59,15 +64,25 @@ html(lang="da")
               a(href="#") Læs mere
             div.konc-img
               a(href="#")
-                img(src="img/event1.jpg")
+                img(src="img/event3.jpg")
         section.intro
           article.intro-tekst
+              h1 SDUs Storekor
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam molestias atque vel, natus animi ex quas fugiat saepe illum odit adipisci doloremque libero a, voluptatum nesciunt impedit laboriosam omnis nisi dignissimos. Perferendis unde veniam deserunt explicabo, saepe culpa adipisci a, perspiciatis, velit odio beatae atque ullam alias modi labore qui!
+
           article.intro-tekst
-        section.nyheder
-          article.nyhed
-          article.nyhed
-        section.om-os
-          article.om-os-tekst
-          article.om-os-img
+              h1 Optagelses Status
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam molestias atque vel, natus animi ex quas fugiat saepe illum odit adipisci doloremque libero a, voluptatum nesciunt impedit laboriosam omnis nisi dignissimos. Perferendis unde veniam deserunt explicabo, saepe culpa adipisci a, perspiciatis, velit odio beatae atque ullam alias modi labore qui!
+              .icon-status
+      
+      section.nyheder
+        article.nyhed
+        article.nyhed
+
+      section.om-os
+        article.om-os-tekst
+        article.om-os-img
+
     footer
+
     script(type="javascript", src="js/script-min.js")

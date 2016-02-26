@@ -5,3 +5,11 @@ body {
   line-height: 1.5;
   font-family: 'Ubuntu', sans-serif;
 }
+
+h1 {
+  @include font-size(1.9);
+  padding-bottom: 15px;
+}
+h2 {
+  @include font-size(1.6);
+}

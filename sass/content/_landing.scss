@@ -1,0 +1,48 @@
+div.konc-img img {
+  height: 200px;
+}
+
+.landing {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.koncerter {
+  display: flex;
+  flex-flow: column wrap;
+  width: 48%;
+  padding-bottom: 50px;
+  .koncert {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 240px;
+    .konc-info h2 {
+      padding-right: 10px;
+    }
+  }
+}
+
+section.intro {
+  display: flex;
+  flex-flow: column wrap;
+  width: 48%;
+  padding-bottom: 50px;
+  .intro-tekst {
+    justify-content: space-around;
+    position: relative;
+    padding-bottom: 30px;
+    p {
+      padding-left: 25px;
+    }
+    .icon-status {
+      position: absolute;
+      top: 6px;
+      left: 280px;
+      width: 30px;
+      height: 30px;
+      background-color: crimson;
+    }
+  }
+}

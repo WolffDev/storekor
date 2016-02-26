@@ -1,0 +1,17 @@
+@import "_vars";
+@media screen and (max-width: $break__medium) {
+  .landing {
+    flex-flow: column wrap;
+  }
+  .intro {
+    order: -1;
+  }
+  .koncerter,
+  .intro {
+    width: 100%;
+  }
+  section.intro {
+    width: 80vw;
+    margin: 0 auto;
+  }
+}

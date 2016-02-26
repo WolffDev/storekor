@@ -1,5 +1,6 @@
 @import "_vars.scss";
 @import "_mixins.scss";
-@import "_structure.scss";
-@import "_chars.scss";
+@import "content/_cont-style.scss";
+@import "_fonts.scss";
 @import "_header.scss";
+@import "_mobile";
