@@ -10,11 +10,7 @@ html {
   box-sizing: border-box;
 }
 
-*:not(img),
-*:before,
-*:after {
-  box-sizing: inherit;
-}
+
 
 html {
   background: $color__background;
@@ -23,7 +19,6 @@ html {
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 30px 15px;
-  height: 2000px;
+  padding: 30px 15px 0;
   color: $color__main-text;
 }

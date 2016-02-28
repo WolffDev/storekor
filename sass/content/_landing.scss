@@ -6,18 +6,29 @@ div.konc-img img {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  padding: 50px 0 50px;
+}
+
+hr {
+  margin: 25px 0;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(40, 58, 78, 0), rgba(40, 58, 78, 0.75), rgba(40, 58, 78, 0));
+}
+
+.space {
+  padding: 50px 0;
 }
 
 .koncerter {
   display: flex;
   flex-flow: column wrap;
   width: 48%;
-  padding-bottom: 50px;
   .koncert {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    height: 240px;
+    height: 200px;
     .konc-info h2 {
       padding-right: 10px;
     }
@@ -36,13 +47,50 @@ section.intro {
     p {
       padding-left: 25px;
     }
-    .icon-status {
+    .icon-status svg {
       position: absolute;
       top: 6px;
       left: 280px;
-      width: 30px;
-      height: 30px;
-      background-color: crimson;
+      width: 35px;
+      height: 35px;
+      fill: green;
     }
   }
+}
+
+.nyheder {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  h1 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .nyhed {
+    width: 48%;
+    h4 {
+      margin-bottom: 10px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.om-os-tekst {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+  p {
+    width: 50%;
+  }
+}
+.om-os-img {
+  width: 100%;
+  height: 250px;
+  background-image: url(../img/people-smash.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

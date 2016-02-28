@@ -2,10 +2,9 @@ doctype html
 html(lang="da")
   head
     meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
     title SDU Storekor Odense
-    link(rel="stylesheet", href="css/skeleton.css")
     link(rel="stylesheet", href="css/style.css")
-    link(rel="stylesheet", href="mobile.css")
     link(rel="shortcut icon" href="img/favicon.ico" type="image/x-icon")
   body
     header
@@ -34,7 +33,7 @@ html(lang="da")
           li 
             a(href="#") Kontakt
     .wrapper
-      .landing
+      .landing.space
         section.koncerter
           article.koncert
             div.konc-info
@@ -45,6 +44,7 @@ html(lang="da")
             div.konc-img
               a(href="#")
                 img(src="img/event1.jpg")
+          hr
                   
           article.koncert
             div.konc-info
@@ -55,7 +55,7 @@ html(lang="da")
             div.konc-img
               a(href="#")
                 img(src="img/event2.jpg")
-                  
+          hr
           article.koncert
             div.konc-info
               h2 Koncert titel
@@ -74,14 +74,27 @@ html(lang="da")
               h1 Optagelses Status
               p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam molestias atque vel, natus animi ex quas fugiat saepe illum odit adipisci doloremque libero a, voluptatum nesciunt impedit laboriosam omnis nisi dignissimos. Perferendis unde veniam deserunt explicabo, saepe culpa adipisci a, perspiciatis, velit odio beatae atque ullam alias modi labore qui!
               .icon-status
+                svg(xmlns="http://www.w3.org/2000/svg", version="1", id="Capa_1", x="0", y="0", width="30", height="30", viewBox="0 0 50 50", xml:space="preserve")
+                  path(d="M50 25C50 11 39 0 25 0 11 0 0 11 0 25c0 14 11 25 25 25C39 50 50 39 50 25zM27 25c0 1-1 2-2 2 -1 0-2-1-2-2V13c0-1 1-2 2-2 1 0 2 1 2 2V25zM41 25c0 9-7 16-16 16 -9 0-16-7-16-16 0-4 2-8 5-11 0 0 1-1 2-1s1 0 2 1c1 1 1 2 0 3 -2 2-3 5-3 8 0 6 5 11 11 11s11-5 11-11c0-3-1-6-3-8 -1-1-1-2 0-3 1-1 2-1 3 0C39 17 41 21 41 25z")
       
-      section.nyheder
+      section.nyheder.space
+        h1 Nyheder fra koret
         article.nyhed
+          img(src="img/event4.jpg")
+          h3 Titel på nyhed her!
+          h4 Dato for post
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id inventore dicta atque possimus, veniam explicabo accusamus non accusantium maxime obcaecati error iure, illum similique deserunt quia a ipsam. Repellendus aliquam natus enim impedit blanditiis illum perspiciatis, corporis laudantium deleniti totam aspernatur ipsa ea unde soluta, facilis reiciendis nulla accusantium at.
         article.nyhed
+          img(src="img/event3.jpg")
+          h3 Titel på nyhed her!
+          h4 Dato for post
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione porro nihil molestiae asperiores autem accusamus ipsam nisi, illum pariatur iure, quasi laborum. Ipsam perferendis delectus non magni cum. At cupiditate quo voluptatum maiores nostrum fuga soluta cumque praesentium corrupti nam quis, nisi numquam obcaecati veniam reprehenderit non ullam. Sit, maxime.
 
-      section.om-os
+      section.om-os.space
         article.om-os-tekst
-        article.om-os-img
+          h1 Om os
+          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nisi similique, quibusdam quasi laudantium assumenda! Ut optio facere, error ipsam. Quia impedit dolorem eaque quas nisi esse consequuntur dignissimos quos, tenetur. Dolores, facilis, dolore quia velit magni maiores porro at fuga placeat assumenda veritatis odio vel consequatur molestias hic blanditiis!
+    div.om-os-img
 
     footer
 

@@ -1,2 +1,211 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);*{margin:0;padding:0;outline:none;text-decoration:none;list-style:none}html{box-sizing:border-box}*:not(img),*:before,*:after{box-sizing:inherit}html{background:#dcd9e2}.wrapper{max-width:1200px;margin:0 auto;padding:30px 15px;height:2000px;color:#2c3a4e}div.konc-img img{height:200px}.landing{display:flex;flex-flow:row wrap;justify-content:space-between}.koncerter{display:flex;flex-flow:column wrap;width:48%;padding-bottom:50px}.koncerter .koncert{display:flex;flex-flow:row wrap;justify-content:space-around;height:240px}.koncerter .koncert .konc-info h2{padding-right:10px}section.intro{display:flex;flex-flow:column wrap;width:48%;padding-bottom:50px}section.intro .intro-tekst{justify-content:space-around;position:relative;padding-bottom:30px}section.intro .intro-tekst p{padding-left:25px}section.intro .intro-tekst .icon-status{position:absolute;top:6px;left:280px;width:30px;height:30px;background-color:crimson}body{font-size:16px;font-size:1rem;line-height:1.5;font-family:'Ubuntu', sans-serif}h1{font-size:30.4px;font-size:1.9rem;padding-bottom:15px}h2{font-size:25.6px;font-size:1.6rem}header{background-image:url(/img/bg-head2.jpg);background-position:top center;background-repeat:no-repeat;background-size:cover;height:400px;max-width:1600px;margin:0 auto;position:relative}.head-icon{position:absolute;top:10px;left:20px;width:100px;height:100px;background:url(/img/logo.png);background-repeat:no-repeat;background-position:top center;background-size:contain;z-index:100}.nav-mobile{display:none}nav{position:absolute;display:flex;justify-content:flex-end;bottom:40px;height:38px;width:100%}nav ul{display:flex;justify-content:flex-end;align-items:center;height:100%;background:rgba(44,58,78,0.7);border-radius:8px 0 0 8px;padding:0 10px}nav ul li a{font-weight:700;color:#fff;padding:10px 5px;height:100%;width:100%;transition:all .3s linear}nav ul li a:hover{background:#f8991d;transition:all .3s linear}@media screen and (max-width: 982px){.landing{flex-flow:column wrap}.intro{order:-1}.koncerter,.intro{width:100%}section.intro{width:80vw;margin:0 auto}}
-/*# sourceMappingURL=style.css.map */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  list-style: none; }
+
+html {
+  box-sizing: border-box; }
+
+html {
+  background: #dcd9e2; }
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 15px 0;
+  color: #2c3a4e; }
+
+div.konc-img img {
+  height: 200px; }
+
+.landing {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 50px 0 50px; }
+
+hr {
+  margin: 25px 0;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(40, 58, 78, 0), rgba(40, 58, 78, 0.75), rgba(40, 58, 78, 0)); }
+
+.space {
+  padding: 50px 0; }
+
+.koncerter {
+  display: flex;
+  flex-flow: column wrap;
+  width: 48%; }
+  .koncerter .koncert {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 200px; }
+    .koncerter .koncert .konc-info h2 {
+      padding-right: 10px; }
+
+section.intro {
+  display: flex;
+  flex-flow: column wrap;
+  width: 48%;
+  padding-bottom: 50px; }
+  section.intro .intro-tekst {
+    justify-content: space-around;
+    position: relative;
+    padding-bottom: 30px; }
+    section.intro .intro-tekst p {
+      padding-left: 25px; }
+    section.intro .intro-tekst .icon-status svg {
+      position: absolute;
+      top: 6px;
+      left: 280px;
+      width: 35px;
+      height: 35px;
+      fill: green; }
+
+.nyheder {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
+  .nyheder h1 {
+    width: 100%;
+    margin-bottom: 20px; }
+  .nyheder .nyhed {
+    width: 48%; }
+    .nyheder .nyhed h4 {
+      margin-bottom: 10px; }
+    .nyheder .nyhed img {
+      width: 100%; }
+
+.om-os-tekst {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center; }
+  .om-os-tekst p {
+    width: 50%; }
+
+.om-os-img {
+  width: 100%;
+  height: 250px;
+  background-image: url(../img/people-smash.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+body {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: 'Ubuntu', sans-serif; }
+
+h1 {
+  font-size: 30.4px;
+  font-size: 1.9rem;
+  padding-bottom: 15px; }
+
+h2 {
+  font-size: 25.6px;
+  font-size: 1.6rem; }
+
+h3 {
+  font-size: 18.72px;
+  font-size: 1.17rem; }
+
+h4 {
+  font-size: 14.4px;
+  font-size: 0.9rem; }
+
+header {
+  background-image: url(../img/bg-head2.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  max-width: 1600px;
+  margin: 0 auto;
+  position: relative; }
+
+.head-icon {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+  background: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  z-index: 100; }
+
+.nav-mobile {
+  display: none; }
+
+nav {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  bottom: 40px;
+  height: 38px;
+  width: 100%; }
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    background: rgba(44, 58, 78, 0.7);
+    border-radius: 8px 0 0 8px;
+    padding: 0 10px; }
+    nav ul li a {
+      font-weight: 700;
+      color: #fff;
+      padding: 10px 5px;
+      height: 100%;
+      width: 100%;
+      transition: all .3s linear; }
+      nav ul li a:hover {
+        background: #f8991d;
+        transition: all .3s linear; }
+
+@media screen and (max-width: 1010px) {
+  .landing {
+    flex-flow: column wrap; }
+
+  .intro {
+    order: -1; }
+
+  .koncerter,
+  .intro {
+    width: 100%; }
+
+  section.intro {
+    width: 100%;
+    margin: 0 auto; } }
+@media screen and (max-width: 650px) {
+  .nyheder {
+    flex-flow: column wrap; }
+    .nyheder .nyhed {
+      width: 100%; }
+
+  .nyheder .nyhed:nth-child(2) {
+    padding-bottom: 30px; }
+
+  .om-os-tekst {
+    text-align: left;
+    align-items: flex-start; }
+    .om-os-tekst p {
+      width: 100%; } }
+@media screen and (max-width: 499px) {
+  .koncerter .koncert {
+    height: 100%;
+    justify-content: flex-start; }
+
+  .koncert {
+    padding-bottom: 20px; }
+    .koncert img {
+      padding-top: 10px;
+      width: 100%; } }

@@ -13,3 +13,9 @@ h1 {
 h2 {
   @include font-size(1.6);
 }
+h3 {
+  @include font-size(1.17);
+}
+h4 {
+  @include font-size(0.9);
+}

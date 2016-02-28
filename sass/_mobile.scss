@@ -11,7 +11,41 @@
     width: 100%;
   }
   section.intro {
-    width: 80vw;
+    width: 100%;
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: $break__mediumSmall) {
+  .nyheder {
+    flex-flow: column wrap;
+    .nyhed {
+      width: 100%;
+    }
+  }
+
+  .nyheder .nyhed:nth-child(2) {
+    padding-bottom: 30px;
+  }
+  .om-os-tekst {
+    text-align: left;
+    align-items: flex-start;
+    p {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: $break__small) {
+  .koncerter .koncert {
+    height: 100%;
+    justify-content: flex-start;
+  }
+  .koncert {
+    padding-bottom: 20px;
+    img {
+      padding-top: 10px;
+      width: 100%;
+    }
   }
 }

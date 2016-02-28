@@ -1,4 +1,5 @@
-@media screen and (max-width: 982px) { .landing { flex-flow: column wrap; }
+@media screen and (max-width: 1010px) { .landing { flex-flow: column wrap; }
   .intro { order: -1; }
   .koncerter, .intro { width: 100%; }
   section.intro { width: 80vw; margin: 0 auto; } }
+@media screen and (max-width: 499px) { article.koncert { height: 100%; justify-content: flex-start; } }
